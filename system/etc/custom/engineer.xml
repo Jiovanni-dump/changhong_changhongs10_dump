@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<customer>
+	<commandId>*#33#</commandId>
+        <packageName>com.aliyun.image</packageName>
+        <className>com.aliyun.image.app.Gallery</className>
+	</customer>
+	<customer>
+	<commandId>*99999#</commandId>
+	<actionName> android.provider.Telephony.YUNOS_FACTORYMODE </actionName>
+	</customer>
+<!-- Vanzo:zhongjunyu on: Tue, 03 Mar 2015 17:00:07 +0800
+add vanzo seccode
+-->
+    <customer>
+    <commandId>*#66#</commandId>
+        <packageName>com.mediatek.factorymode</packageName>
+        <className>com.mediatek.factorymode.FactoryMode</className>
+    </customer>
+
+    <customer>
+    <commandId>*#4634#</commandId>
+        <packageName>com.android.settings</packageName>
+        <className>com.android.settings.WriteIMEIDialog</className>
+    </customer>
+
+    <customer>
+    <commandId>*#*#5799#*#*</commandId>
+        <packageName>com.vz.commoninfo</packageName>
+        <className>com.vz.commoninfo.CompatibleActivity</className>
+    </customer>
+    <customer>
+    <commandId>*#*#27729#*#*</commandId>
+        <packageName>com.vz.commoninfo</packageName>
+        <className>com.vz.commoninfo.VanzoMarketAppActivity</className>
+    </customer>
+<!-- End of Vanzo:zhongjunyu -->
+
+<!-- Vanzo:zhangtisheng on: Wed, 29 Mar 2017 10:40:07 +0800
+ 36 add agingtest code
+ 37 -->
+      <customer>
+      <commandId>*#5427#</commandId>
+          <packageName>com.vanzo.tisen.agingtest</packageName>
+          <className>com.vanzo.tisen.agingtest.activity.AgingTestBegin</className>
+      </customer>
+ <!-- End of Vanzo:zhangtisheng -->
+</list>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.yunos.weblightsdk" file="/system/framework/WeblightsdkShared.jar"/>
+</permissions>

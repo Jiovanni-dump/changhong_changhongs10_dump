@@ -1,0 +1,9 @@
+com.mediatek.phone.ext.INetworkSettingExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.OP01NetworkSettingExt | OP01Plugin.apk
+com.mediatek.phone.ext.IIncomingCallExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.Op01IncomingCallExt | OP01Plugin.apk
+com.mediatek.phone.ext.ICallFeaturesSettingExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.Op01CallFeaturesSettingExt | OP01Plugin.apk
+com.mediatek.phone.ext.IMobileNetworkSettingsExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.Op01MobileNetworkSettingsExt | OP01Plugin.apk
+com.mediatek.phone.ext.ICallForwardExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.Op01CallForwardExt | OP01Plugin.apk
+com.mediatek.providers.settings.ext.IDatabaseHelperExt | com.mediatek.op01.plugin | com.mediatek.settingsprovider.plugin.Op01DatabaseHelperExt | OP01Plugin.apk
+com.mediatek.telecom.ext.ICallMgrExt | com.mediatek.op01.plugin | com.mediatek.telecom.plugin.Op01CallMgrExt | OP01Plugin.apk
+com.mediatek.phone.ext.ISsRoamingServiceExt | com.mediatek.op01.plugin | com.mediatek.phone.plugin.Op01SsRoamingServiceExt | OP01Plugin.apk
+com.mediatek.downloadmanager.ext.IDownloadProviderFeatureExt | com.mediatek.op01.plugin | com.mediatek.downloadmanager.plugin.Op01DownloadProviderFeatureExt | OP01Plugin.apk

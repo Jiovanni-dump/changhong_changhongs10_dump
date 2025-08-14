@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="autostart_user_white" version="1">
+  <item systemid="1" apkname="com.aliyun.wireless.vos.appstore" />
+  <!--YUNOS BEGIN PB-->
+  <!--BugID:5952087:remove apps from auto start white list.-->
+  <!--author:hangtao.yht@alibaba-inc.com date:2015.5.1-->
+  <!--
+  <item systemid="2" apkname="com.aliyun.mobile.email" />
+  <item systemid="3" apkname="com.alibaba.android.babylon" />
+  <item systemid="4" apkname="com.tencent.mm" />
+  <item systemid="5" apkname="com.tencent.qq" />
+  <item systemid="6" apkname="com.tencent.mobileqq" />
+  <item systemid="7" apkname="com.moji.mjweather" />
+  <item systemid="8" apkname="com.gfive.famos.servecenter" />
+  -->
+  <!--YUNOS END PB-->
+</entry>

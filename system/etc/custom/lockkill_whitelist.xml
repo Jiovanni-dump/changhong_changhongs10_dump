@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="acceleration_user_white" version="2">
+  <item systemid="4" apkname="com.yunos.FMRadio" />
+  <item systemid="5" apkname="com.tencent.mm" />
+  <item systemid="6" apkname="com.tencent.mobileqq">
+      <mutex apkname="com.tencent.mm" />
+  </item>
+  <item systemid="8" apkname="fm.xiami.yunos" />
+  <item systemid="12" apkname="com.xiami.walkman" />
+
+  <item systemid="13" apkname="com.android.providers.downloads" />
+  <item systemid="14" apkname="com.android.providers.calendar" />
+  <item systemid="15" apkname="com.android.providers.media" />
+  <item systemid="16" apkname="com.android.providers.downloads" />
+  <item systemid="17" apkname="com.android.providers.contacts" />
+  <item systemid="18" apkname="com.android.providers.telephony" />
+  <item systemid="19" apkname="com.android.providers.drm" />
+  <item systemid="20" apkname="android.process.media" />
+
+</entry>

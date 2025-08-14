@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="autostart_system_app" version="3">
+  <item systemid="1" apkname="com.aliyun.image" />
+  <item systemid="2" apkname="com.yunos.camera" />
+  <item systemid="4" apkname="com.aliyun.filemanager" />
+  <item systemid="5" apkname="com.android.calculator2" />
+  <item systemid="6" apkname="com.duomi.yunos" />
+  <item systemid="7" apkname="com.autonavi.minimap" />
+  <item systemid="8" apkname="com.taobao.reader" />
+  <item systemid="9" apkname="cn.wps.moffice_eng" />
+  <item systemid="10" apkname="com.aliyun.Barcode" />
+  <item systemid="11" apkname="com.aliyun.mobile.browser" />
+  <item systemid="12" apkname="com.android.browser" />
+  <item systemid="13" apkname="com.UCMobile.yunos" />
+  <item systemid="14" apkname="com.aliyun.mobile.email" />
+  <item systemid="15" apkname="com.android.htmlviewer" />
+  <item systemid="16" apkname="com.android.gallery3d" />
+  <item systemid="17" apkname="com.android.settings" />
+  <item systemid="18" apkname="com.mediatek.FMRadio" />
+  <item systemid="19" apkname="com.mediatek.videofavorites" />
+  <item systemid="20" apkname="com.sohu.sohuvideo.aliyunos" />
+  <item systemid="21" apkname="com.aliyun.wireless.vos.appstore" />
+  <item systemid="22" apkname="xcxin.filexpertaliyun" />
+  <item systemid="23" apkname="com.aliyun.video" />
+  <item systemid="24" apkname="com.aliyun.video.wasu" />
+  <item systemid="25" apkname="fm.xiami.yunos" />
+  <item systemid="26" apkname="com.yunos.FMRadio" />
+  <item systemid="27" apkname="com.android.providers.downloads.ui" />
+  <item systemid="28" apkname="com.yunos.calculator" />
+  <item systemid="29" apkname="com.android.providers.downloads" />
+  <item systemid="30" apkname="cn.andouya" />
+  <item systemid="31" apkname="com.aliyunos.filemanager" />
+  <item systemid="32" apkname="com.yunos.gamestore" />
+  <!--YUNOS BEGIN PB-->
+  <!--BugID:5952087:add UCMobile and Alipay to autostart monitor list-->
+  <!--author:hangtao.yht@alibaba-inc.com date:2015.5.1-->
+  <item systemid="33" apkname="com.UCMobile" />
+  <item systemid="34" apkname="com.eg.android.AlipayGphone" />
+  <item systemid="35" apkname="com.android.calendar" />
+  <!--YUNOS END PB-->
+</entry>

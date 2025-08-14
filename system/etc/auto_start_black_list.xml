@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- reference AliPermissionService,
+     0 is auto start black atcion; 1 is auto start black service;
+     2 is auto start black package name; 3 is auto start protect action name;
+     4 is service action name;
+     5 is content provider name;
+     6 is system bind service name;
+     7 is activity name;
+     8 is receiver name;
+     9 is service permission;
+     for systemid=-1, means those data won't store on cloud server.--> 
+<entry name="auto_start_black_list" version="40">
+    <item systemid="1" apkname="android" type="0" />
+    <item systemid="2" apkname="com.baidu" type="0" />
+    <item systemid="3" apkname="com.igexin" type="0" />
+    <item systemid="4" apkname="org.agoo" type="0" />
+    <item systemid="5" apkname="com.umeng" type="0" />
+    <item systemid="6" apkname="cn.jpush" type="0" />
+    <item systemid="7" apkname="com.igexin.sdk.PushService" type="1" />
+    <item systemid="8" apkname="com.umeng.message.UmengIntentService" type="1" />
+    <item systemid="9" apkname="cn.jpush.android.service.PushService" type="1" />
+    <item systemid="-1" apkname="android.appwidget.action" type="3" />
+    <item systemid="14" apkname="com.alibaba.android.babylon.push.CMNSService" type="1" />
+    <item systemid="15" apkname="org.agoo.android.intent.action.PING" type="4" />
+    <item systemid="16" apkname="org.agoo.android.intent.action.PING2" type="4" />
+    <item systemid="17" apkname="org.agoo.android.intent.action.PING_V4" type="4" />
+    <item systemid="18" apkname="org.agoo.android.intent.action.ELECTION_V2" type="4" />
+    <item systemid="19" apkname="org.rome.android.ipp.intent.action.PINGA" type="4" />
+    <item systemid="20" apkname="org.agoo.android.intent.action.RECEIVE" type="0" />
+    <item systemid="21" apkname="org.agoo.android.intent.action.RE_ELECTION_V2" type="0" />
+    <item systemid="22" apkname="org.agoo.android.intent.action.ELECTION_RESULT_V4" type="0" />
+    <item systemid="23" apkname="XX_FROM_WX_SDK" type="4" />
+    <item systemid="24" apkname="com.baidu.android.moplus.action.START" type="0" />
+    <item systemid="25" apkname="com.baidu.android.pushservice.action.BIND_SYNC" type="0" />
+    <item systemid="26" apkname="com.baidu.android.pushservice.action.MESSAGE" type="0" />
+    <item systemid="28" apkname="com.baidu.android.pushservice.action.RECEIVE" type="0" />
+    <item systemid="29" apkname="com.tencent.android.tpush.action.FEEDBACK" type="0" />
+    <item systemid="30" apkname="com.tencent.android.tpush.action.SDK" type="0" />
+    <item systemid="31" apkname="baidu.intent.action.account.SHARE_SERVICE" type="4" />
+    <item systemid="32" apkname="com.baidu.android.pushservice.action.METHOD" type="4" />
+    <item systemid="33" apkname="com.baidu.android.pushservice.action.PUSH_SERVICE" type="4" />
+    <item systemid="34" apkname="com.tencent.android.tpush.action.keepalive" type="4" />
+    <item systemid="35" apkname="org.android.agoo.client.MessageReceiverService" type="4" />
+    <item systemid="36" apkname="com.qihoo.psdk.service.action.remote" type="4" />
+    <item systemid="37" apkname="com.baidu.sapi2.share.ShareService" type="1" />
+    <item systemid="38" apkname="com.baidu.hello.MoPlusService" type="1" />
+    <item systemid="39" apkname="com.tencent.android.tpush.service.XGPushService" type="1" />
+    <item systemid="40" apkname="com.igexin.sdk.coordinator.SdkMsgService" type="1" />
+    <item systemid="41" apkname="com.qihoo.appstore.zhushouhelper.IZhushouHelperService" type="4" />
+    <item systemid="42" apkname="com.qihoo.appstore.QihooAlliance" type="4" />
+    <item systemid="43" apkname="com.alibaba.tcms.service.TCMSService" type="1" />
+    <item systemid="44" apkname="com.sogou.udp.push.SGPushMessageService" type="1" />
+    <item systemid="45" apkname="com.youku.pushsdk.service.PushService" type="1" />
+    <item systemid="46" apkname="com.sohu.news.mp.sp.SohuNewsService" type="1" />
+    <item systemid="47" apkname="com.taobao.accs.ChannelService" type="1" />
+    <item systemid="48" apkname="com.amap.api.service.AMapService" type="1" />
+    <item systemid="49" apkname="com.sogou.udp.push.PushService" type="1" />
+    <item systemid="50" apkname="com.sina.weibo.push.PushServiceProxy" type="1" />
+    <item systemid="51" apkname="com.qihoo.gamecenter.sdk.suspend.service.action.remote" type="4" />
+    <item systemid="52" apkname="com.youku.pushsdk.pushservice.FRIEND" type="4" />
+    <item systemid="53" apkname="com.aspire.purchaseservice.BIND" type="4" />
+    <item systemid="54" apkname="com.tadu.android.intent.action.START" type="4" />
+    <item systemid="55" apkname="com.sogou.pushservice.action.METHOD" type="4" />
+    <item systemid="56" apkname="com.autonavi.minimap.intent.action.START" type="4" />
+    <item systemid="57" apkname="com.blingstorm.biscuit.PUSH_ACTION" type="4" />
+    <item systemid="58" apkname="xianlianai.action.DAEMON_TIMEOUT" type="0" />
+    <item systemid="59" apkname="com.sankuai.mtmp.COMMUNICATE" type="0" />
+    <item systemid="60" apkname="com.youku.pushsdk.pushservice.ALARM_DATA_COLLECT" type="0" />
+    <item systemid="61" apkname="com.sina.weibo.sdk.Intent.ACTION_WEIBO_REGISTER" type="0" />
+    <item systemid="62" apkname="com.xiaomi.push.service_started" type="0" />
+    <item systemid="63" apkname="com.alibaba.tcms.TCMSRECEIVER" type="0" />
+    <item systemid="64" apkname="com.sogou.pushservice.action.pushstate.conn" type="0" />
+    <item systemid="65" apkname="com.youku.pushsdk.pushservice.ALARM_TICK" type="0" />
+    <item systemid="66" apkname="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER" type="0" />
+    <item systemid="67" apkname="com.ixintui.action.BROADCAST" type="0" />
+    <item systemid="68" apkname="com.taobao.taobao.config.update.notify" type="0" />
+    <item systemid="69" apkname="im.yixin.sdk.api.Intent.ACTION_REFRESH_YXAPP" type="0" />
+    <item systemid="70" apkname="io.yunba.android.ALIAS_SET_RESULT_ACTION" type="0" />
+    <item systemid="71" apkname="com.ixintui.action.RESULT" type="0" />
+    <item systemid="72" apkname="im.yixin.sdk.Intent.ACTION_HANDLE_APP_REG" type="0" />
+    <item systemid="73" apkname="com.inmobi.share.id" type="0" />
+    <item systemid="74" apkname="com.youku.android.pushsdk.action.MESSAGE" type="0" />
+    <item systemid="75" apkname="com.imangi.templerun2" type="0" />
+    <item systemid="76" apkname="com.sogou.map.android.maps.watch.tws.TwsPhoneService" type="1" />
+    <item systemid="77" apkname="com.xiaomi.mipush.sdk.PushMessageHandler" type="1" />
+    <item systemid="78" apkname="com.qihoo.accountcenter.service.AccountService" type="1" />
+    <item systemid="79" apkname="org.OpenUDID.OpenUDID_service" type="1" />
+    <item systemid="80" apkname="com.qihoo.psdk.local.QLocalService" type="1" />
+    <item systemid="81" apkname="com.ixintui.action.PICKUP" type="4" />
+    <item systemid="82" apkname="com.qihoo360.accounts.action.START_SERVICE" type="4" />
+    <item systemid="83" apkname="com.duoduo.child.story.intent.action.START" type="4" />
+    <item systemid="84" apkname="com.taobao.accs.intent.action.SERVICE" type="4" />
+    <item systemid="85" apkname="org.android.agoo.client.ElectionReceiverService" type="4" />
+    <item systemid="86" apkname="com.xiaomi.mipush.sdk.WAKEUP" type="4" />
+    <item systemid="87" apkname="com.qihoo.accountcenter.action.START_ACCOUNT_SERVICE" type="4" />
+    <item systemid="88" apkname="com.tencent.tws.commonbusiness.PassThroughService" type="4" />
+    <item systemid="89" apkname="com.qihoo.browser.QihooAlliance" type="4" />
+    <item systemid="90" apkname="com.qihoo.video.QihooAlliance" type="4" />
+    <item systemid="91" apkname="com.sythealth.fitness.PUSH_ACTION" type="4" />
+    <item systemid="92" apkname="com.qihoo.antivirus.QihooAlliance" type="4" />
+    <item systemid="93" apkname="com.ludashi.benchmark.QihooAlliance" type="4" />
+    <item systemid="94" apkname="com.youku.pushsdk.pushservice.START_PUSH_SERVICE" type="4" />
+    <item systemid="95" apkname="com.qihoo.cleandroid_cn.QihooAlliance" type="4" />
+    <item systemid="96" apkname="cn.play.dservice" type="0" />
+    <item systemid="97" apkname="com.nanshan.torch.intent.action.START" type="4" />
+    <item systemid="98" apkname="com.besttone.hall.intent.action.START" type="4" />
+    <item systemid="99" apkname="com.youloft.calendar.intent.action.START" type="4" />
+    <item systemid="100" apkname="com.cn21.push.service.IPushService" type="4" />
+    <item systemid="101" apkname="com.cn21.push.service.PushService" type="1" />
+    <item systemid="102" apkname="com.culiu.purchase.PUSH_ACTION" type="4" />
+    <item systemid="103" apkname="com.idswz.INIT" type="0" />
+    <item systemid="104" apkname="com.qihoo360.mobilesafe.blockmanagement.ACTION_ENABLE_SERVICE" type="0" />
+    <item systemid="105" apkname="com.baidu.browser.statistics.installs.TIMEOUT" type="0" />
+    <item systemid="106" apkname="com.sina.weibo.action.BACK_TO_BACKGROUND" type="0" />
+    <item systemid="107" apkname="com.sankuai.mtmp.token.receive" type="0" />
+    <item systemid="108" apkname="com.youyuan.yyhl.dfreceiver.restart" type="0" />
+    <item systemid="109" apkname="com.sogou.pushservice.action.pushstate.unconn" type="0" />
+    <item systemid="110" apkname="action_get_and_install_plugin" type="0" />
+    <item systemid="111" apkname="com.netease.push.action.service.METHOD" type="0" />
+    <item systemid="112" apkname="baidu.intent.action.SHARE" type="0" />
+    <item systemid="113" apkname="com.koudai.action.ACTIVE" type="0" />
+    <item systemid="114" apkname="com.huawei.android.push.intent.REGISTER" type="0" />
+    <item systemid="115" apkname="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" type="0" />
+    <item systemid="116" apkname="com.youyuan.yyhl.start.fork" type="0" />
+    <item systemid="117" apkname="com.sankuai.mtmp.message.receive" type="0" />
+    <item systemid="118" apkname="com.baidu.browser.push.autobind" type="0" />
+    <item systemid="119" apkname="com.tencent.mobileqq.broadcast.qq" type="0" />
+    <item systemid="120" apkname="DXCoreAlarmReceiver" type="0" />
+    <item systemid="121" apkname="com.huawei.intent.action.PUSH" type="0" />
+    <item systemid="122" apkname="com.qihoo360.mobilesafe.blockmanagement.CONNECT_TO_SERVICE" type="4" />
+    <item systemid="123" apkname="com.sankuai.mtmp.service.start" type="4" />
+    <item systemid="124" apkname="com.taobao.wifi.intent.action.START" type="4" />
+    <item systemid="125" apkname="com.snowfish.a.a.s.ABGSvc" type="4" />
+    <item systemid="126" apkname="com.tencent.Alice.PUSH_ACTION" type="4" />
+    <item systemid="127" apkname="com.qihoo.freewifi.QihooAlliance" type="4" />
+    <item systemid="128" apkname="com.tencent.tmgp.youlong.PUSH_ACTION" type="4" />
+    <item systemid="129" apkname="com.taobao.mobile.dipei.intent.action.COCKROACH" type="4" />
+    <item systemid="130" apkname="com.tencent.game.SSGame.PUSH_ACTION" type="4" />
+    <item systemid="131" apkname="com.memezhibo.android.intent.action.START" type="4" />
+    <item systemid="132" apkname="com.tencent.qqgame.xq.PUSH_ACTION" type="4" />
+    <item systemid="133" apkname="io.rong.command" type="4" />
+    <item systemid="134" apkname="com.tencent.feiji.PUSH_ACTION" type="4" />
+    <item systemid="135" apkname="com.qihoo.haosou.QihooAlliance" type="4" />
+    <item systemid="136" apkname="com.tencent.map.PUSH_ACTION" type="4" />
+    <item systemid="137" apkname="com.taobao.trip.intent.action.START" type="4" />
+    <item systemid="138" apkname="com.nineton.weatherforecast.PUSH_ACTION" type="4" />
+    <item systemid="139" apkname="org.agoo.android.intent.action.RECEIVE" type="4" />
+    <item systemid="140" apkname="com.taobao.mobile.dipei.intent.action.START" type="4" />
+    <item systemid="141" apkname="com.tencent.game.VXDGame.PUSH_ACTION" type="4" />
+    <item systemid="142" apkname="com.qq.reader.PUSH_ACTION" type="4" />
+    <item systemid="143" apkname="com.qihoo.video.PUSHSERVICE" type="4" />
+    <item systemid="144" apkname="wifi.intent.action.STICKY_SERVICE" type="4" />
+    <item systemid="145" apkname="com.tencent.qqpimsecure.TMS_LITE_SERVICE" type="4" />
+    <item systemid="146" apkname="cn.egame.terminal.sdk.RECEIVER_CMD" type="4" />
+    <item systemid="147" apkname="org.rome.android.IPP_CALL" type="4" />
+    <item systemid="148" apkname="com.app.pay.IPayService" type="4" />
+    <item systemid="149" apkname="com.cmcc.sso.Action.SsoService" type="4" />
+    <item systemid="150" apkname="com.tencent.qqmail.utilities.qmnetwork.service.QMWakeUpService" type="1" />
+    <item systemid="151" apkname="com.taobao.android.sso.internal.PidGetterService" type="1" />
+    <item systemid="152" apkname="com.sina.news.push.GuardPushService" type="1" />
+    <item systemid="153" apkname="com.elong.mobile.countly.support.OpenUDID_service" type="1" />
+    <item systemid="154" apkname="com.baidu.android.pushservice.CommandService" type="1" />
+    <item systemid="155" apkname="com.sankuai.mtmp.service.MtmpService" type="1" />
+    <item systemid="156" apkname="com.tencent.qqpimsecure.service.TMSLiteService" type="1" />
+    <item systemid="157" apkname="cn.egame.terminal.sdk.EgameCoreService" type="1" />
+    <item systemid="158" apkname="org.rome.android.ipp.binder.IppService" type="1" />
+    <item systemid="159" apkname="com.app.pay.PayService" type="1" />
+    <item systemid="160" apkname="com.cmcc.sso.service.SsoService" type="1" />
+    <item systemid="161" apkname="com.iqiyi.sdk.android.pushservice.action.RECEIVE" type="0" />
+    <item systemid="162" apkname="com.sankuai.mtmp.WAKEUP" type="0" />
+    <item systemid="163" apkname="com.dianxinos.feedback.FIRST_" type="0" />
+    <item systemid="164" apkname="com.sina.weibo.action.BACK_TO_FORGROUND" type="0" />
+    <item systemid="165" apkname="com.qiyi.startapp" type="0" />
+    <item systemid="166" apkname="com.qiyi.heartbeat.alarm.action" type="0" />
+    <item systemid="167" apkname="com.qiyi.heartbeat.getstrategy.action" type="0" />
+    <item systemid="169" apkname="CN.SUISENT.PEACOCK.PEACOCKBROADCAST" type="0" />
+    <item systemid="170" apkname="com.qihoo.gameunion.QihooAlliance" type="4" />
+    <item systemid="171" apkname="com.boohee.one.PUSH_ACTION" type="4" />
+    <item systemid="172" apkname="com.qihoo.yunpan.QihooAlliance" type="4" />
+    <item systemid="173" apkname="cn.jpush.android.service.DaemonService" type="1" />
+    <item systemid="174" apkname="com.qihoo.express.mini.service.DaemonCoreService" type="1" />
+    <item systemid="175" apkname="com.idswz.plugin.service.PluginService" type="1" />
+    <item systemid="176" apkname="com.tencent.assistant.sdk.SDKSupportService" type="1" />
+    <item systemid="177" apkname="com.qihoo.yunpan.core.service.YunpanService" type="1" />
+    <item systemid="178" apkname="com.android.coll.s.CollService" type="1" />
+    <item systemid="179" apkname="org.qiyi.android.commonphonepad.pushmessage.PushMessageService" type="1" />
+    <item systemid="180" apkname="com.facebook.rti.fbns.intent.SHARE_IDS" type="0" />
+    <item systemid="181" apkname="com.yy.pushsvc.WakeUpBroadcast" type="0" />
+    <item systemid="182" apkname="com.cocos.push.service.action.AUTOCHECK" type="0" />
+    <item systemid="183" apkname="com.mymoney.sms.action.APP_BOOT_COMPLETED" type="0" />
+    <item systemid="184" apkname="com.mymoney.ui.action.APP_BOOT_COMPLETED" type="0" />
+    <item systemid="185" apkname="com.facebook.GET_PHONE_ID" type="0" />
+    <item systemid="186" apkname="dict.youdao.com_G5" type="0" />
+    <item systemid="187" apkname="com.syezon.action.ADJUST_SWITCH" type="0" />
+    <item systemid="188" apkname="dict.youdao.com_S5" type="0" />
+    <item systemid="189" apkname="com.netease.pomelo.pushservice.reconnect_S5" type="0" />
+    <item systemid="190" apkname="com.xiaoao.sdk.Ad.service.RequestAdService" type="4" />
+    <item systemid="191" apkname="netease.pomelo.push.l.messageservice_V2" type="4" />
+    <item systemid="192" apkname="com.UCMobile.intent.action.COCKROACH" type="4" />
+    <item systemid="193" apkname="com.tecnent.qqpim.CHANGENOTICE" type="4" />
+    <item systemid="194" apkname="com.heitao.openudid.HTOpenUDID_service" type="1" />
+    <item systemid="195" apkname="com.qihoo360.accounts.sso.svc.AccountService" type="1" />
+    <item systemid="196" apkname="com.tencent.qqpim.service.share.QQPimShareService" type="1" />
+    <item systemid="198" apkname="com.dianping.action.PUSH_START" type="0" />
+    <item systemid="199" apkname="com.intent.action.sister.MESSAGE_NOTIFY" type="0" />
+    <item systemid="200" apkname="com.elves.budejie.check.unsend.adrequest" type="0" />
+    <item systemid="201" apkname="com.qihoo360.mobilesafe.opti.schedule.ACTION_INIT_SCHEDULE" type="0" />
+    <item systemid="202" apkname="com.aoe.action.WAKEUP_APP_REBIND" type="0" />
+    <item systemid="203" apkname="com.youdao.note.openapi.Intent.ACTION_REGISTER" type="0" />
+    <item systemid="204" apkname="com.qihoo.gameunion.service.AssistantService" type="1" />
+    <item systemid="205" apkname="com.taobao.agoo.PushService" type="1" />
+    <item systemid="206" apkname="com.cmcc.aoe.AoeService" type="1" />
+    <item systemid="207" apkname="com.baidu.android.pushservice.PushService" type="1" />
+    <item systemid="208" apkname="com.ixintui.push.PushService" type="1" />
+    <item systemid="209" apkname="com.husor.beibei.PUSH_ACTION" type="4" />
+    <item systemid="210" apkname="com.kunpeng.babyting.PUSH_ACTION" type="4" />
+    <item systemid="211" apkname="com.tqkj.shenzhi.intent.action.START" type="4" />
+    <item systemid="212" apkname="net.qihoo.launcher.widget.clockweather.QihooAlliance" type="4" />
+    <item systemid="213" apkname="com.ixintui.action.CONTROL" type="4" />
+    <item systemid="214" apkname="com.cocos.push.service.action.UPDATE" type="0" />
+    <item systemid="215" apkname="com.storm.smart.intent.action.START" type="4" />
+    <item systemid="216" apkname="cocos.push.service" type="4" />
+    <item systemid="217" apkname="com.qihoo.secstore.QihooAlliance" type="4" />
+    <item systemid="218" apkname="com.sohu.push.action.PUSH_SERVICE" type="4" />
+    <item systemid="219" apkname="com.youloft.core.app.ReportService" type="4" />
+    <item systemid="220" apkname="com.youloft.core.app.ReportService" type="1" />
+    <item systemid="221" apkname="com.tencent.pb.remote.PushService" type="1" />
+    <item systemid="-1" apkname="com.aliyun.image" type="2" />
+    <item systemid="-1" apkname="com.yunos.camera" type="2" />
+    <item systemid="-1" apkname="com.aliyun.filemanager" type="2" />
+    <item systemid="-1" apkname="com.android.calculator2" type="2" />
+    <item systemid="-1" apkname="com.duomi.yunos" type="2" />
+    <item systemid="-1" apkname="com.autonavi.minimap" type="2" />
+    <item systemid="-1" apkname="com.taobao.reader" type="2" />
+    <item systemid="-1" apkname="cn.wps.moffice_eng" type="2" />
+    <item systemid="-1" apkname="com.aliyun.Barcode" type="2" />
+    <item systemid="-1" apkname="com.aliyun.mobile.browser" type="2" />
+    <item systemid="-1" apkname="com.android.browser" type="2" />
+    <item systemid="-1" apkname="com.UCMobile.yunos" type="2" />
+    <item systemid="-1" apkname="com.android.htmlviewer" type="2" />
+    <item systemid="-1" apkname="com.android.gallery3d" type="2" />
+    <item systemid="-1" apkname="com.android.settings" type="2" />
+    <item systemid="-1" apkname="com.mediatek.FMRadio" type="2" />
+    <item systemid="-1" apkname="com.mediatek.videofavorites" type="2" />
+    <item systemid="-1" apkname="com.sohu.sohuvideo.aliyunos" type="2" />
+    <item systemid="-1" apkname="xcxin.filexpertaliyun" type="2" />
+    <item systemid="-1" apkname="com.aliyun.video" type="2" />
+    <item systemid="-1" apkname="com.aliyun.video.wasu" type="2" />
+    <item systemid="-1" apkname="fm.xiami.yunos" type="2" />
+    <item systemid="-1" apkname="com.yunos.FMRadio" type="2" />
+    <item systemid="-1" apkname="cn.andouya" type="2" />
+    <item systemid="-1" apkname="com.yunos.gamestore" type="2" />
+    <item systemid="-1" apkname="com.xiami.walkman" type="2" />
+    <item systemid="-1" apkname="com.yunos.easyclone" type="2" />
+    <item systemid="-1" apkname="io.yunos.bbs" type="2" />
+    <item systemid="-1" apkname="com.eg.android.AlipayGphone" type="2" />
+    <item systemid="-1" apkname="com.alipay.android.app" type="2" />
+    <item systemid="-1" apkname="com.UCMobile" type="2" />
+    <item systemid="-1" apkname="com.yunos.calculator" type="2" />
+    <item systemid="-1" apkname="com.aliyunos.filemanager" type="2" />
+    <item systemid="-1" apkname="com.android.providers.downloads" type="2" />
+    <item systemid="-1" apkname="com.aliyun.mobile.email" type="2" />
+    <item systemid="-1" apkname="com.sohu.newsclient" type="2" />
+    <item systemid="-1" apkname="com.taobao.trip" type="2" />
+    <item systemid="222" apkname="com.android.dle.action.Alarm" type="0" />
+    <item systemid="223" apkname="baidu.intent.action.SHARE_V6" type="0" />
+    <item systemid="224" apkname="droid.snail.action.st" type="0" />
+    <item systemid="225" apkname="dtxto.action.notification.update" type="0" />
+    <item systemid="226" apkname="com.huhulab.adsdk.UPLOAD" type="0" />
+    <item systemid="228" apkname="com.antutu.benchmark.marooned.ERROR" type="0" />
+    <item systemid="229" apkname="baidu.intent.action.NEWSHARE" type="0" />
+    <item systemid="230" apkname="com.zhangyue.ad.schedule.update" type="0" />
+    <item systemid="231" apkname="com.baidu.platform.gameplus.service" type="4" />
+    <item systemid="232" apkname="cn.lt.game.START_WAKE_SERVICE" type="4" />
+    <item systemid="233" apkname="com.baidu.kspush.KsWebSocketService" type="1" />
+    <item systemid="234" apkname="com.tencent.reading.push.PushService" type="1" />
+    <item systemid="235" apkname="com.tencent.news.push.PushService" type="1" />
+    <item systemid="236" apkname="cn.lextel.dg.service.ServiceManage" type="1" />
+    <item systemid="237" apkname="com.mrocker.push.service.PushService" type="1" />
+    <item systemid="238" apkname="com.igexin.download.DownloadProvider" type="5" />
+    <item systemid="239" apkname="com.qihoo360.mobilesafe.service.KLJobService" type="6" />
+    <item systemid="241" apkname="io.presage.receivers.BootReceiver.RESTART_SERVICE" type="0" />
+    <item systemid="242" apkname="com.commsource.beautyplus.PushNotification" type="0" />
+    <item systemid="243" apkname="com.tencent.qqlive.assist.GeneralService" type="1" />
+    <item systemid="244" apkname="com.egame.app.service.BackRunService" type="1" />
+    <item systemid="245" apkname="com.egame.client.service.action" type="4" />
+    <item systemid="246" apkname="com.zhangyue.ad.schedule.updated" type="0" />
+    <item systemid="247" apkname="com.jd.jrapp.PUSH_ACTION" type="4" />
+    <item systemid="248" apkname="com.wangyin.payment.PUSH_ACTION" type="4" />
+    <item systemid="249" apkname="com.chance.service" type="4" />
+    <item systemid="250" apkname="com.avos.avoscloud.PushService" type="1" />
+    <item systemid="251" apkname="com.qihoo360.mobilesafe.service.helper.GuardHelperService" type="1" />
+    <item systemid="252" apkname="com.tencent.server.back.DaemonService" type="1" />
+    <item systemid="253" apkname="com.huawei.android.push.intent.REGISTRATION" type="0" />
+    <item systemid="254" apkname="com.qiji.UPLOAD" type="0" />
+    <item systemid="255" apkname="xianlianai.action.ALARM_TIMEOUT" type="0" />
+    <item systemid="256" apkname="com.qihoo.appstore.scheduler.KLJobService" type="6" />
+    <item systemid="257" apkname="com.meri.service.bg.jobscheduler.JobSchedulerService" type="6" />
+    <item systemid="258" apkname="com.duokan.reader.domain.job.JobManagerService" type="6" />
+    <item systemid="259" apkname="com.qihoo.appstore.ACTION_DAEMON_CORE_SERVICE" type="4" />
+    <item systemid="260" apkname="com.baidu.appsearch.invoke.action.STARTUP_OPTIMIZER" type="4" />
+    <item systemid="261" apkname="com.imooc.statistics.syncadapter.SyncService" type="6" />
+    <item systemid="262" apkname="com.alibaba.android.rimet.syncadapter.SyncService" type="6" />
+    <item systemid="263" apkname="com.booking.dcl.syncadapter.DCLSyncService" type="6" />
+    <item systemid="264" apkname="com.caiyi.accounting.sync.SyncAdapterService" type="6" />
+    <item systemid="265" apkname="com.huajiao.account.SyncService" type="6" />
+    <item systemid="266" apkname="com.lejent.zuoyeshenqi.afanti.sync.SyncService" type="6" />
+    <item systemid="267" apkname="com.netease.nr.biz.account.SyncService" type="6" />
+    <item systemid="268" apkname="com.qihoo.appstore.keepalive.account.SyncService" type="6" />
+    <item systemid="269" apkname="com.sina.weibo.sync.contact.ContactsSyncService" type="6" />
+    <item systemid="270" apkname="com.sina.weibo.sync.guard.GuardSyncService" type="6" />
+    <item systemid="271" apkname="com.taobao.qianniu.service.syncadapter.SyncAdapterService" type="6" />
+    <item systemid="272" apkname="com.tencent.mm.plugin.accountsync.model.ContactsSyncService" type="6" />
+    <item systemid="273" apkname="com.tencent.news.account.SyncService" type="6" />
+    <item systemid="274" apkname="com.tencent.reading.account.SyncService" type="6" />
+    <item systemid="275" apkname="com.meri.service.monitor.JobSchedulerService" type="6" />
+    <item systemid="276" apkname="com.myzaker.ZAKER_Phone.view.sysaccount.SyncService" type="6" />
+    <item systemid="277" apkname="com.tencent.mtt.browser.push.external.account.SyncService" type="6" />
+    <item systemid="278" apkname="com.igexin.sdk.GActivity" type="7" />
+    <item systemid="279" apkname="com.evernote.android.job.v21.PlatformJobService" type="6" />
+    <item systemid="280" apkname="com.amazon.client.metrics.nexus.UploadJobService" type="6" />
+    <item systemid="281" apkname="com.meri.service.monitor.NtMonitorService" type="6" />
+    <item systemid="282" apkname="com.qihoo360.mobilesafe.service.NLService" type="6" />
+    <item systemid="283" apkname="com.cleanmaster.screensave.notification.NotificationListener" type="6" />
+    <item systemid="284" apkname="com.myzaker.ZAKER_Phone.view.push.weakup.DaemonService" type="1" />
+    <item systemid="285" apkname="com.qihoo360.mobilesafe.QihooAlliance" type="4" />
+    <item systemid="286" apkname="com.ixintui.push.Provider" type="5" />
+    <item systemid="287" apkname="com.coohuaclient.notification.KeyguardNotificationListener" type="6" />
+    <item systemid="288" apkname="com.disney.wdpro.commons.sync.SyncService" type="6" />
+    <item systemid="289" apkname="com.dotools.fls.screen.notification.NotificationListener" type="6" />
+    <item systemid="290" apkname="com.iooly.android.lockscreen.app.LockNotificationService" type="6" />
+    <item systemid="291" apkname="com.microsoft.office.msohttp.keystore.SyncService" type="6" />
+    <item systemid="292" apkname="org.agoo.android.intent.action.ELECTION_V3" type="4" />
+    <item systemid="293" apkname="com.qihoo.psdk.remote.QRemoteService" type="1" />
+    <item systemid="294" apkname="com.qihoo360.mobilesafe.opti.job.CleanJobService" type="6" />
+    <item systemid="295" apkname="com.ali.money.shield.module.redenvelope.service.RedNotificationService" type="6" />
+    <item systemid="296" apkname="com.ali.money.shield.schedulerimpl.JobSchedulerService" type="6" />
+    <item systemid="297" apkname="com.qihoo.freewifi.service.JobSchedulerService" type="6" />
+    <item systemid="298" apkname="com.cleanmaster.service.NotificationListener" type="6" />
+    <item systemid="299" apkname="ks.cm.antivirus.applock.service.NotificationMonitorService" type="6" />
+    <item systemid="300" apkname="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" type="0"/>
+    <item systemid="301" apkname="com.qihoo360.pushsdk.ACTION_LOCAL_HEART_BEAT" type="4"/>
+    <item systemid="302" apkname="com.ijinshan.browser.service.LiebaoPush" type="1"/>
+    <item systemid="303" apkname="com.qihoo.vpnmaster.keepalive.jobscheduler.JobSchedulerService" type="6"/>
+    <item systemid="304" apkname="com.kingroot.common.improve.protection.KCheckServiceJob" type="6"/>
+    <item systemid="305" apkname="com.tencent.pb.syncadapter.SyncService" type="6"/>
+    <item systemid="306" apkname="com.lockstudio.sticklocker.service.SystemNotificationListener" type="6"/>
+    <item systemid="307" apkname="com.qihoo.browser.pushmanager.PushBrowserService" type="1"/>
+    <item systemid="308" apkname="com.qihoo.video.services.PushVideoService" type="1"/>
+    <item systemid="309" apkname="com.igexin.sdk.action.service.message" type="4"/>
+    <item systemid="310" apkname="com.vipshop.sdk.push.MqttService" type="1"/>
+    <item systemid="311" apkname="com.tencent.android.tpush.rpc.XGRemoteService" type="1"/>
+    <item systemid="312" apkname="com.charingsaver.state.action" type="0"/>
+    <item systemid="313" apkname="com.douban.artery.action" type="0"/>
+    <item systemid="314" apkname="com.ixintui.action" type="0"/>
+    <item systemid="315" apkname="com.asus.zenuifamily.action" type="0"/>
+    <item systemid="318" apkname="co.action.close.service" type="0"/>
+    <item systemid="319" apkname="com.douban.push.service.CoreService" type="1"/>
+    <item systemid="320" apkname="com.douban.artery.action.WAKEUP" type="4"/>
+    <item systemid="321" apkname="cn.mucang.moon.intent.action.download" type="0"/>
+    <item systemid="322" apkname="com.lego.clientlog.receiver" type="0"/>
+    <item systemid="323" apkname="co.lvdou.livewallpaper" type="0"/>
+    <item systemid="324" apkname="com.wo.android.push" type="0"/>
+    <item systemid="325" apkname="com.snda.dcsdk.notification" type="0"/>
+    <item systemid="326" apkname="define_weather_updatetime_action_on" type="0"/>
+    <item systemid="327" apkname="com.cmcm.screensaver.update_data_battery" type="0"/>
+    <item systemid="328" apkname="download.service.action" type="4"/>
+    <item systemid="329" apkname="cn.poco.pMix.UpdateService" type="4"/>
+    <item systemid="330" apkname="com.UCMobile.intent.action.FRIEND" type="4"/>
+    <item systemid="331" apkname="com.uc.base.push.PushFriendBridge" type="1"/>
+    <item systemid="332" apkname="com.wo.android.push.PushService" type="1"/>
+    <item systemid="333" apkname="com.apptalkingdata.push.service.PushService" type="1"/>
+    <item systemid="334" apkname="com.qihoo.core.CoreService" type="1"/>
+    <item systemid="335" apkname="com.cmcc.aoe.push.AOEService" type="1"/>
+    <item systemid="336" apkname="com.qihoo.appstore.keepalive.account.SyncServiceNew" type="6"/>
+    <item systemid="337" apkname="com.qihoo360.mobilesafe.accountsync.SyncService" type="6"/>
+    <item systemid="338" apkname="com.netease.cosine.target.CosineReceiver" type="8"/>
+    <item systemid="339" apkname="com.ixsdk.push.local.ALocalService" type="1"/>
+    <item systemid="340" apkname="com.ixsdk.push.remote.ARemoteService" type="1"/>
+    <item systemid="341" apkname="com.umeng.message.UmengService" type="1"/>
+    <item systemid="342" apkname="com.ixintui.push.PushActivity" type="7"/>
+    <item systemid="343" apkname="com.umeng.message.UmengBroadcastReceiver" type="8"/>
+    <item systemid="344" apkname="android.permission.BIND_JOB_SERVICE" type="9"/>
+    <item systemid="345" apkname="com.ss.android.message.PushJobService" type="6"/>
+    <item systemid="346" apkname="com.xiaomi.push.service.XMJobService" type="6"/>
+    <item systemid="347" apkname="com.xiaomi.push.service.XMService" type="6"/>
+    <item systemid="348" apkname="com.dianping.base.push.pushservice.PushWakeUpJob" type="6"/>
+    <item systemid="349" apkname="com.tencent.news.push.pullwake.jobsched.JobService" type="6"/>
+    <item systemid="350" apkname="com.huawei.intent.action.PUSH_STATE" type="0"/>
+    <item systemid="351" apkname="ELITOR_CLOCK" type="0"/>
+    <item systemid="352" apkname="cn.mucang.android.moon.receiver.DownloadInfoReceiver" type="8"/>
+    <item systemid="353" apkname="com.appkefu.lib.receivers.KFAlarmReceiver" type="8"/>
+    <item systemid="354" apkname="com.wo.android.push.PushReceiver" type="8"/>
+    <item systemid="355" apkname="com.baidu.android.pushservice.PushInfoProvider" type="5"/>
+    <item systemid="356" apkname="com.cn21.push.service.MsgService" type="1"/>
+    <item systemid="357" apkname="com.cn21.push.service.NewPushService" type="1"/>
+    <item systemid="358" apkname="com.qihoo.browser.keepalive.account.SyncService" type="6"/>
+    <item systemid="359" apkname="com.uc.base.syssync.SyncService" type="6"/>
+    <item systemid="360" apkname="com.ss.android.account.AccountSyncService" type="6"/>
+    <item systemid="361" apkname="com.battlelancer.seriesguide.sync.SgSyncService" type="6"/>
+    <item systemid="362" apkname="com.qihoo.appstore.AppStoreNotificationListenerService" type="6"/>
+    <item systemid="363" apkname="com.baidu.yuedu.pushalive.SyncAdapterService" type="6"/>
+    <item systemid="364" apkname="com.show.calla.AppReceiver" type="8"/>
+    <item systemid="365" apkname="com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" type="8"/>
+    <item systemid="366" apkname="com.android888.copyleft.CLReceiver" type="8"/>
+    <item systemid="367" apkname="com.android888.copyleft.CLService" type="1"/>
+    <item systemid="368" apkname="com.gametalkingdata.push.service.PushService" type="1"/>
+    <item systemid="369" apkname="com.ixintui.push.PushService" type="6"/>
+    <item systemid="370" apkname="com.qihoo.util.CommonProvider" type="5"/>
+    <item systemid="371" apkname="cn.etouch.ecalendar.keeplive.account.SyncAccountService" type="6"/>
+    <item systemid="372" apkname="com.tencent.server.back.SyncTaskService" type="6"/>
+    <item systemid="373" apkname="com.android.app.notificationbar.account.SyncService" type="6"/>
+    <item systemid="374" apkname="com.beibo.yuerbao.wakeup.sync.SyncService" type="6"/>
+    <item systemid="376" apkname="com.android.system.xfortify.service.NotifyService" type="6"/>
+</entry>

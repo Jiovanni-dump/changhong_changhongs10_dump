@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="acceleration_user_white" version="3">
+  <!--YUNOS BEGIN PB-->
+  <!--BugID:5952087:remove apps from user white list.-->
+  <!--for 6735m limited 512RAM platform-->
+  <!--author:hangtao.yht@alibaba-inc.com date:2015.5.1-->
+  <!--
+  <item systemid="1" apkname="com.alibaba.android.babylon" />
+  <item systemid="2" apkname="com.moji.mjweather" />
+  <item systemid="3" apkname="com.aliyun.note" />
+  <item systemid="4" apkname="com.yunos.FMRadio" />
+  <item systemid="5" apkname="com.android.settings" />
+  <item systemid="6" apkname="com.aliyun.soundrecorder" />
+  <item systemid="240" apkname="com.tencent.mobileqq" />
+  <item systemid="241" apkname="com.tencent.mm" />
+  -->
+  <item systemid="240" apkname="com.android.cleanprocesstool" />
+  <item systemid="1001" apkname="com.yunqiluckymoney" />
+  <item systemid="1002" apkname="com.greenpoint.android.mc10086.activity" />
+  <!--YUNOS END PB-->
+</entry>

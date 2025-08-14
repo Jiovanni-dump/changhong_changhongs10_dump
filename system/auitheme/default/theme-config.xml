@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YUNOS-THEME>
+  <author-info>
+    <package>com.yunos.theme.p.yunostheme5.0</package>
+    <name>YunOS5.0 卡片</name>
+    <english_name>YunOS5.0 Card</english_name>
+    <designer>YunOS</designer>
+    <author>YunOS</author>
+    <version>1</version>
+    <osversion>2.0</osversion>
+    <intro>YunOS5.0默认主题</intro>
+    <background>1</background>
+  </author-info>
+
+  <items>
+    <item>wallpaper</item>
+    <item>icons</item>
+    <item>com.yunos.trafficpanel</item>
+    <item>fancyicons</item>
+    <item>lockstyle</item>
+    <item>lockwallpaper</item>
+    <item>com.aliyun.homeshell</item>
+  </items>
+</YUNOS-THEME>

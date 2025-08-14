@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="acceleration_system_app" version="6">
+  <item systemid="1" apkname="com.aliyun.image" />
+  <item systemid="2" apkname="com.yunos.camera" />
+  <item systemid="3" apkname="com.aliyun.video" />
+  <item systemid="4" apkname="com.aliyun.video.wasu" />
+  <item systemid="5" apkname="com.aliyun.note" />
+  <item systemid="6" apkname="com.aliyun.filemanager" />
+  <item systemid="7" apkname="com.android.browser" />
+  <item systemid="8" apkname="com.android.calculator2" />
+  <item systemid="9" apkname="com.android.calendar" />
+  <item systemid="10" apkname="com.duomi.yunos" />
+  <item systemid="11" apkname="com.autonavi.minimap.custom" />
+  <item systemid="12" apkname="com.taobao.reader" />
+  <item systemid="13" apkname="cn.wps.moffice_eng" />
+  <item systemid="14" apkname="com.aliyun.Barcode" />
+  <item systemid="15" apkname="com.aliyun.mobile.browser" />
+  <item systemid="16" apkname="com.UCMobile.yunos" />
+  <item systemid="17" apkname="com.aliyun.mobile.email" />
+  <item systemid="19" apkname="com.android.htmlviewer" />
+  <item systemid="20" apkname="com.android.gallery3d" />
+  <item systemid="21" apkname="com.android.settings" />
+  <item systemid="22" apkname="com.mediatek.FMRadio" />
+  <item systemid="24" apkname="com.mediatek.videofavorites" />
+  <item systemid="25" apkname="com.sohu.sohuvideo.aliyunos" />
+  <item systemid="26" apkname="com.yunos.alicontacts" />
+  <item systemid="27" apkname="com.aliyun.wireless.vos.appstore" />
+  <item systemid="28" apkname="xcxin.filexpertaliyun" />
+  <item systemid="29" apkname="fm.xiami.yunos" />
+  <item systemid="30" apkname="com.yunos.FMRadio" />
+  <item systemid="31" apkname="com.android.providers.downloads.ui" />
+  <item systemid="32" apkname="com.android.mms" />
+  <item systemid="33" apkname="com.yunos.calculator" />
+  <item systemid="34" apkname="com.android.providers.downloads" />
+  <item systemid="35" apkname="cn.andouya" />
+  <item systemid="36" apkname="com.aliyunos.filemanager" />
+  <item systemid="37" apkname="com.yunos.lifecard" />
+  <item systemid="38" apkname="com.yunos.cloudapp.launcher" />
+  <item systemid="39" apkname="com.yunos.cloudapp.launcher1" />
+  <item systemid="40" apkname="com.yunos.cloudapp.launcher2" />
+  <item systemid="41" apkname="com.aliyun.soundrecorder" />
+  <item systemid="42" apkname="com.UCMobile" />
+  <item systemid="43" apkname="com.autonavi.minimap" />
+  <item systemid="44" apkname="com.yunos.gamestore" />
+  <item systemid="45" apkname="com.xiami.walkman" />
+  <!--YUNOS BEGIN PB-->
+  <!--BugID:5952087:kill Alipay when acceleration.-->
+  <!--set systemid to 101 make sure it works when the list update from server-->
+  <!--author:hangtao.yht@alibaba-inc.com date:2015.5.1-->
+  <item systemid="101" apkname="com.eg.android.AlipayGphone" />
+  <item systemid="102" apkname="com.android.cleanprocesstool" />
+  <!--YUNOS END PB-->
+  <!--YUNOS BEGIN PB-->
+  <!--fixed bug BugID:8642760-->
+  <item systemid="1000" apkname="com.ximalaya.ting.android.aliyunfm" />
+  <item systemid="1001" apkname="com.yunqiluckymoney" />
+  <item systemid="1002" apkname="com.greenpoint.android.mc10086.activity" />
+  <!--YUNOS END PB-->
+</entry>

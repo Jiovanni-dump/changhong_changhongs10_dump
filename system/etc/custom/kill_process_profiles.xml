@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<profiles>
+  <profile memoryThreshold="90000" processThreshold="5" />
+  <profile memoryThreshold="80000" processThreshold="3" />
+  <profile memoryThreshold="75000" processThreshold="1" />
+</profiles>

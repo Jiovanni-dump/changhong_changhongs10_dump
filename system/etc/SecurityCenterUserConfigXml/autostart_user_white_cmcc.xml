@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<entry name="autostart_user_white" version="1">
+  <item systemid="1" apkname="com.aliyun.wireless.vos.appstore" />
+  <item systemid="2" apkname="com.aliyun.mobile.email" />
+  <item systemid="3" apkname="com.alibaba.android.babylon" />
+  <item systemid="4" apkname="com.tencent.mm" />
+  <item systemid="5" apkname="com.tencent.qq" />
+  <item systemid="6" apkname="com.tencent.mobileqq" />
+  <item systemid="7" apkname="com.moji.mjweather" />
+  <item systemid="8" apkname="com.gfive.famos.servecenter" />
+  <item systemid="9" apkname="com.android.mms" />
+  <item systemid="10" apkname="com.chaozh.ireader.aliyun" />
+  <item systemid="101" apkname="com.iflytek.inputmethod" />
+  <item systemid="102" apkname="com.mediatek.atci.service" />
+  <item systemid="103" apkname="org.simalliance.openmobileapi" />
+  <item systemid="104" apkname="org.simalliance.openmobileapi.service" />
+  <item systemid="105" apkname="org.simalliance.openmobileapi.uiccterminal" />
+  <item systemid="106" apkname="org.simalliance.openmobileapi.uicc1terminal" />
+  <item systemid="107" apkname="org.simalliance.openmobileapi.uicc2terminal" />
+  <item systemid="108" apkname="org.simalliance.openmobileapi.eseterminal" />
+  <item systemid="109" apkname="org.simalliance.openmobileapi.service:remote" />
+  <item systemid="110" apkname="com.greenpoint.android.mc10086.activity"/>
+</entry>
