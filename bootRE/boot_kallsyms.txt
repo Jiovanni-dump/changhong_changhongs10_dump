@@ -1,0 +1,10 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+Traceback (most recent call last):
+  File "/home/runner/work/dumpyara/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 1174, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size, args.use_absolute, args.base_address)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/dumpyara/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 182, in __init__
+    self.find_linux_kernel_version()
+  File "/home/runner/work/dumpyara/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 230, in find_linux_kernel_version
+    raise ValueError('No version string found in this kernel')
+ValueError: No version string found in this kernel

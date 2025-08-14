@@ -1,0 +1,130 @@
+#  Copyright 2014 Alibaba.com All right reserved. This software is the
+#  confidential and proprietary information of Alibaba.com ("Confidential
+#  Information"). You shall not disclose such Confidential Information and shall
+#  use it only in accordance with the terms of the license agreement you entered
+#  into with Alibaba.com.
+#
+#
+#  Change Histroy:
+#  Date:         Modifier:
+
+##modules(fingerprint)
+##date:2016-05-11 ##author:xiaolu.txl
+# CDFinger fingerprint device
+on post-fs
+ chmod 0660 /dev/fps1196
+ chmod 0660 /dev/goodix_fp
+ chown system /dev/fps1196
+ chown system /dev/goodix_fp
+#  2014-12-23    kaiming.zkm@alibaba-inc.com     Created an empty init.yunos.rc for
+#  others adding new function.
+#  2014-12-31    xiufeng.dxf@alibaba-inc.com     add uuid
+service uuid /system/bin/uuid -initsetuuid
+    class main
+    user system
+    group system
+    oneshot
+#modules(AliTheme)
+#date:2014-02-10 ##author:fanbin@aliyun-inc.com
+#init auitheme workspace
+#regist service
+service copyFontFile /system/bin/copyFontFile
+    class main
+    user system
+    group system
+    oneshot
+
+#trash_rada
+    chown root system /proc/trash_rada
+    chmod 0440 /proc/trash_rada
+
+##modules(antiGcd)
+##date:2015-1-7 ##author:yuehua.gyh
+service antiGcd /system/bin/antiGcd
+    class main
+    disabled
+    user system
+    group system
+
+on property:sys.garbage.enable=1
+    start antiGcd
+
+on property:sys.garbage.enable=0
+    stop antiGcd
+
+#YUNOS END
+
+#YUNOS PB BEGIN
+#add for display function
+service disp /sbin/display
+     class main
+     user root
+     group root
+     seclabel u:r:adbd:s0
+     oneshot
+#YUNOS PB END
+#YUNOS BEGIN
+##modules(DiskCrypt)
+##date:2014-02-15 ##author:jian.hj
+service secd /system/bin/secd
+    class main
+    user root
+    group root
+#YUNOS END
+#YUNOS BEGIN
+service dnsqueue /system/bin/dnsqueue
+    class core
+    user root
+    group root
+#YUNOS END
+#YUNOS BEGIN
+service tksd /system/bin/tksd
+    class main
+    disabled
+    user root
+    group root
+    seclabel u:r:tksd:s0
+#YUNOS END
+
+#YUNOS PB END
+#YUNOS BEGIN
+##modules(fingerprint)
+##date:2016-05-11 ##author:xiaolu.txl
+# CDFinger fingerprint device
+
+service gx_fpd /system/bin/gx_fpd
+    class late_start
+    disabled
+    user root
+    group root system
+
+on property:sys.fingerprint.chip=goodix
+    start gx_fpd
+
+service cdfingerdaemon /system/bin/cdfingerdaemon
+    class main
+    disabled
+    user system
+    group system
+
+service fingerprintd /system/bin/fingerprintd
+    class main
+    user system
+    group system
+
+on property:sys.fingerprint.chip=cdfinger
+    start cdfingerdaemon
+#YUNOS END
+
+service disp_chksys_err /sbin/disp_chksys_err
+     class core
+     user root
+     group root
+     seclabel u:r:disp_chk_sys:s0
+     disabled
+
+service chk_sys /sbin/sys_verify
+     class main
+     user root
+     group root
+     seclabel u:r:chk_sys:s0

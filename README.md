@@ -1,0 +1,14 @@
+# full_nx17afcl-user 6.0 MRA58K 1513587950 test-keys
+- manufacturer: changhong
+- platform: mt6737m
+- codename: ChanghongS10
+- flavor: mt6737atvali_nx17acl_changhongs10j_changhong_cc_z_lc_128gbitp8d3_m_lte_5m-cs
+- release: 6.0
+- id: MRA58K
+- incremental: 1513587950
+- tags: test-keys
+- fingerprint: alps/full_nx17afcl/nx17afcl:6.0/MRA58K/1513587950:user/test-keys
+- is_ab: false
+- brand: Changhong
+- branch: full_nx17afcl-user-6.0-MRA58K-1513587950-test-keys
+- repo: changhong_changhongs10_dump
